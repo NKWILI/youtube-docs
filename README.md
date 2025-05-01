@@ -19,7 +19,7 @@ It's a fully responsive, fast, and intuitive front-end app designed to make lear
 
 ## 🖼️ Demo
 
-![Cultivons nous !](#) <!-- Add screenshot image or hosted URL here -->
+[Cultivons nous !](#) <!-- Add screenshot image or hosted URL here -->
 
 ---
 
@@ -51,7 +51,7 @@ To view the project locally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/cultive-toi.git
+git clone https://github.com/NKWILI/youtube-docs
 
 # Navigate into the project directory
 cd YOUTUBE-DOCS
