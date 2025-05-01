@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cultive toi !</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main class="container">
+    <h1 class="main-title">Cultivons nous ensemble !</h1>
+
+    <!-- Search and Filter Section -->
+    <div class="search-filter-container">
+      <div class="search-container">
+        <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <input type="text" id="search-input" placeholder="Search by title or description...">
+      </div>
+
+      <div class="filter-container">
+        <div class="dropdown" id="category-dropdown">
+          <button class="dropdown-button">
+            <span id="selected-category">All Categories</span>
+            <svg class="dropdown-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </button>
+          <div class="dropdown-content" id="category-options">
+            <!-- Categories will be populated by JavaScript -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Results count -->
+    <p class="results-count" id="results-count">Loading videos...</p>
+
+    <!-- Video Grid -->
+    <div class="video-grid" id="video-grid">
+      <!-- Videos will be populated by JavaScript -->
+    </div>
+
+    <!-- No results message -->
+    <div class="no-results" id="no-results" style="display: none;">
+      <h3>No documentaries found</h3>
+      <p>Try adjusting your search or filter criteria</p>
+    </div>
+  </main>
+
+  <!-- Video Card Template -->
+  <template id="video-card-template">
+    <div class="video-card">
+      <div class="thumbnail-container">
+        <img class="thumbnail" src="/placeholder.svg" alt="">
+        <div class="play-overlay">
+          <div class="play-button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="5 3 19 12 5 21 5 3"></polygon>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="video-content">
+        <h3 class="video-title"></h3>
+        <p class="video-category"></p>
+        <p class="video-description"></p>
+        <a class="watch-button" href="" target="_blank" rel="noopener noreferrer">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+            <polyline points="15 3 21 3 21 9"></polyline>
+            <line x1="10" y1="14" x2="21" y2="3"></line>
+          </svg>
+          Watch Now
+        </a>
+      </div>
+    </div>
+  </template>
+
+  <script src="script.js"></script>
+</body>
+</html>
