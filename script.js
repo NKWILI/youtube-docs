@@ -151,7 +151,31 @@ document.addEventListener("DOMContentLoaded", () => {
     Elle détaille son parcours, de Y Combinator (sous Paul Graham) à la co-fondation d'OpenAI (avec Elon Musk, Ilya Sutskever, Greg Brockman). 
     Le récit couvre le succès de ChatGPT, le partenariat avec Microsoft, sa rivalité avec **Musk** et les conflits internes qui ont mené à son bref licenciement puis retour à la tête d'OpenAI.`,
       url: "https://youtu.be/i-VYyq_nm2g?si=RKV6zIkyKB9sugLh",
+    },
+    {
+      id: "20",
+      title: "Dans les coulisses du blanchiment d'argent mondial",
+      category: "Crime, Mafia & Cartels",
+      description: `Plongez dans le monde secret où **pirates, trafiquants et criminels** s'ingénient à dissimuler l'origine illicite de leurs fortunes. 
+      Des combines artisanales aux réseaux financiers complexes, découvrez comment **identités volées**, **sociétés écrans** dans des paradis fiscaux et **jeux d'argent massifs** sont utilisés pour "laver" des milliards.
+      Même les **marchés virtuels de jeux vidéo** ou les **cryptomonnaies** deviennent des canaux discrets pour ces transactions douteuses.
+      Explorez l'ingéniosité démoniaque de montages : **fausses factures**, **prêts adossés**, **banques complices** — autant d'armes dans cette guerre invisible contre la traçabilité.
+      Une plongée fascinante dans un univers où l'argent sale, une fois blanchi, peut s'infiltrer et contrôler des pans entiers de l'économie mondiale.`,
+      url: "https://www.youtube.com/watch?v=iL5LC0a7KJY&t=385s",
+    },
+    {
+      id: "21",
+      title: "Duolingo : La chouette qui a gamifié l'éducation",
+      category: "Technologie & Révolutions Modernes",
+      description: `Cette vidéo plonge au cœur du succès fulgurant de **Duolingo**, l'application à la célèbre chouette verte devenue incontournable dans l'apprentissage des langues. 
+      Elle retrace le parcours de **Luis von Ahn**, son fondateur visionnaire et inventeur du **CAPTCHA**, qui a d'abord conçu Duolingo pour traduire le web avant de se tourner vers l'éducation linguistique.
+      Grâce à une **gamification poussée**, l'application rend l'apprentissage aussi **addictif qu’un jeu vidéo**, utilisant des notifications personnalisées, de la culpabilisation, des classements, et des barres de progression.
+      Si son modèle freemium et son taux de rétention impressionnent, certaines études interrogent son efficacité réelle pour atteindre la fluidité.
+      On y découvre aussi **Duo**, la mascotte devenue un mème Internet, et **Duolingo Max**, une nouvelle fonctionnalité boostée à l'IA.
+      Malgré des revenus inférieurs à certains concurrents, la société est valorisée à **15 milliards de dollars**, et Luis von Ahn est aujourd'hui milliardaire.`,
+      url: "https://www.youtube.com/watch?v=csYRchkbomY",
     }
+    
     
     
     
