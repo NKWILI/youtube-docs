@@ -174,6 +174,18 @@ document.addEventListener("DOMContentLoaded", () => {
       On y découvre aussi **Duo**, la mascotte devenue un mème Internet, et **Duolingo Max**, une nouvelle fonctionnalité boostée à l'IA.
       Malgré des revenus inférieurs à certains concurrents, la société est valorisée à **15 milliards de dollars**, et Luis von Ahn est aujourd'hui milliardaire.`,
       url: "https://www.youtube.com/watch?v=csYRchkbomY",
+    },
+    {
+      id: "20",
+      title: "Workshop : Codex Community ",
+      category: "Workshop",
+      description: `Les Workshops Codex sont des sessions interactives pour apprendre à coder, comprendre les outils modernes et progresser ensemble.
+      Chaque atelier aborde un thème précis (web, IA, productivité, etc.) avec théorie, pratique et échanges.
+      Les débutants comme les avancés y trouvent des conseils concrets et des retours utiles.
+      On y fait du live coding, des mini-projets et des défis en groupe.
+      C’est un espace bienveillant pour poser ses questions et s’améliorer.
+      Rejoins-nous pour apprendre vite, bien, et avec plaisir !`,
+      url: "https://www.codex-cmr.com/Workshop",
     }
     
     
